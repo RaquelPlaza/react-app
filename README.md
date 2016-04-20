@@ -1,2 +1,2 @@
-# react-app
-Yeoman generated react app
+# Pamper booking app
+React booking system for beauty 
