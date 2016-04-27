@@ -3,14 +3,14 @@ require('styles/App.css');
 
 import React from 'react';
 
-let yeomanImage = require('../images/yeoman.png');
+let link = 'http://www.raquelplaza.com';
 
 class AppComponent extends React.Component {
   render() {
     return (
       <div className="index">
-        <img src={yeomanImage} alt="Yeoman Generator" />
-        <div className="notice">Please edit <code>src/components/Main.js</code> to get started!</div>
+        <a href={link} title="Visit my website">Visit my website</a>
+        <div className="notice">This is my first component for the therapy booking project</div>
       </div>
     );
   }
